@@ -1,0 +1,23 @@
+/* CustomHeader.css */
+
+.ant-layout-sider {
+  height: 100vh;
+  position: fixed; /* Cố định menu dọc khi cuộn trang */
+  top: 0;
+  z-index: 1000;
+}
+.Avatar{
+  justify-content: center;
+  align-items: center;
+}
+.UserName{
+  display: inline-block; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  text-decoration: none; 
+  max-width: 100px;
+  color: black;
+}
+
+
